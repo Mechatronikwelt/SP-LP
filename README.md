@@ -11,7 +11,7 @@ Dokumentation: http://hit-karlsruhe.de/hit-info/info-ws20/SP-LP/
 ### Aufgabenstellung 
 Die Aufgabe besteht darin, eine Kommunikation zwischen einem Launchpad und den 4x4 Pixeln mit Hilfe des MQTT-Protokolls herzustellen. Aufgrund der Verbindung von dem Launchpad und den Pixeln mit einem Broker sollen die Pixel in Abhängigkeit von unterschiedlichen Pads auf dem Launchpad die entsprechenden Farben ausgeben. Außerdem kann der Benutzer auswählen, welche Lightshow er darstellen möchte. Der Swimming Pixel ESP 32 Code wurde mit Arduino IDE umgesetzt und Der Host wurde mit Node-RED umgesetzt. Als MQTT-Kommunikation-Protokoll zwischen Host und Pixel wurde Mosquitto als Broker verwendet. Eine Erklärung vom Code wird zudem im YouTube Video erklärt.
 
-Link zum Youtube: 
+Link zum Youtube: https://www.youtube.com/watch?v=PrtQgnCuUxU
 
 ### Getting Started
 Im Ordner "Swimming_Pixel_MQTT_Lightshow" befinden sich 16 .ino Codes zu jedem ESP32 des Pixels. Jeder einzelne Code hat die folgenden Funktionen:
